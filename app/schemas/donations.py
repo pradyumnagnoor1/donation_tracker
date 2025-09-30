@@ -17,5 +17,12 @@ class DonationOut(BaseModel):
     donor_name: Optional[str] = None
     cause: Optional[str] = None
 
+class DonationUpdate(BaseModel):
+    id: Optional[int]
+    amount: condecimal(max_digits=10, decimal_places=2)
+    currency: str = 'USD'
+    donor_name: Optional[str] = None
+    cause: Optional[str] = None
+
 
 

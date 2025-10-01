@@ -3,3 +3,4 @@ file_setup.txt
 requirements.txt
 .venv
 
+frontend/node_modules
